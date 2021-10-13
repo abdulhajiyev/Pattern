@@ -19,11 +19,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{DA3596AA-5AA7-4A09-98B9-E671D2C2B807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{11D39AF5-AF4C-4C60-9FDF-53F1827F791E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{11D39AF5-AF4C-4C60-9FDF-53F1827F791E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{8B756FB0-22CE-4190-BFB3-C35A8ADB15FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{8B756FB0-22CE-4190-BFB3-C35A8ADB15FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeTask", "BridgeTask\BridgeTask.csproj", "{73C05123-82E8-4278-BC11-BB3BB606CD51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeTask", "BridgeTask\BridgeTask.csproj", "{73C05123-82E8-4278-BC11-BB3BB606CD51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{ED8BECFD-7ECA-430E-89F5-51A6AD8C3F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{FBB2DA8A-F110-4043-B9FA-8904CE7793F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{73C05123-82E8-4278-BC11-BB3BB606CD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73C05123-82E8-4278-BC11-BB3BB606CD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73C05123-82E8-4278-BC11-BB3BB606CD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8BECFD-7ECA-430E-89F5-51A6AD8C3F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8BECFD-7ECA-430E-89F5-51A6AD8C3F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8BECFD-7ECA-430E-89F5-51A6AD8C3F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8BECFD-7ECA-430E-89F5-51A6AD8C3F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB2DA8A-F110-4043-B9FA-8904CE7793F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB2DA8A-F110-4043-B9FA-8904CE7793F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB2DA8A-F110-4043-B9FA-8904CE7793F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB2DA8A-F110-4043-B9FA-8904CE7793F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
